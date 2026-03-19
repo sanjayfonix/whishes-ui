@@ -1,0 +1,94 @@
+
+'use client';
+
+import { useState } from 'react';
+import { useRouter } from 'next/navigation';
+
+export default function PaymentTimeoutPage() {
+  const router = useRouter();
+  const [isRedirecting, setIsRedirecting] = useState(false);
+
+  const handleStartAgain = () => {
+    setIsRedirecting(true);
+    setTimeout(() => {
+      router.push('/book');
+    }, 1200);
+  };
+
+  const handleBackToForm = () => {
+    router.push('/book');
+  };
+
+  return (
+    <div className="min-h-screen bg-gray-50 flex items-center justify-center px-4 py-8">
+      <div className="w-full max-w-md">
+        <div className="mb-8 flex justify-center">
+          <img
+            src="https://public.readdy.ai/ai/img_res/0f0d7f13-ea54-4023-9386-06f304294242.png"
+            alt="WishHapp"
+            className="h-10 w-auto"
+          />
+        </div>
+
+        <div className="bg-white rounded-2xl shadow-lg p-8 md:p-10 text-center">
+          <div className="mb-6 flex justify-center">
+            <div className="w-20 h-20 rounded-full bg-amber-100 flex items-center justify-center">
+              <i className="ri-time-line text-4xl text-amber-500"></i>
+            </div>
+          </div>
+
+          <h1 className="text-2xl md:text-3xl font-bold text-gray-900 mb-3">
+            Payment Session Expired
+          </h1>
+
+          <p className="text-base text-gray-600 mb-2">
+            Your payment session timed out before completion.
+          </p>
+
+          <div className="inline-flex items-center gap-2 px-4 py-2 bg-amber-50 rounded-full mb-6">
+            <i className="ri-shield-check-line text-amber-500 w-4 h-4 flex items-center justify-center"></i>
+            <span className="text-sm font-semibold text-amber-700">No charges were made.</span>
+          </div>
+
+          <div className="mb-8 px-4 py-3 bg-gray-50 rounded-xl">
+            <p className="text-sm text-gray-600 leading-relaxed">
+              This can happen if the payment window was closed, the session expired, or the payment wasn't completed in time. Your event details were not saved.
+            </p>
+          </div>
+
+          <button
+            onClick={handleStartAgain}
+            disabled={isRedirecting}
+            className={`w-full py-4 rounded-xl font-bold text-lg transition-all whitespace-nowrap mb-4 ${
+              isRedirecting
+                ? 'bg-purple-400 text-white cursor-not-allowed'
+                : 'bg-gradient-to-r from-purple-600 to-purple-500 hover:from-purple-700 hover:to-purple-600 text-white shadow-lg hover:shadow-xl transform hover:scale-[1.02]'
+            }`}
+          >
+            {isRedirecting ? (
+              <span className="flex items-center justify-center gap-2">
+                <i className="ri-loader-4-line animate-spin w-5 h-5 flex items-center justify-center"></i>
+                Redirecting…
+              </span>
+            ) : (
+              'Start Again'
+            )}
+          </button>
+
+          <button
+            onClick={handleBackToForm}
+            className="w-full py-3 text-purple-600 hover:text-purple-700 font-semibold transition-colors whitespace-nowrap cursor-pointer"
+          >
+            Back to Booking Form
+          </button>
+        </div>
+
+        <div className="mt-6 text-center px-4">
+          <p className="text-sm text-gray-500 leading-relaxed">
+            Need help? Contact us for support.
+          </p>
+        </div>
+      </div>
+    </div>
+  );
+}

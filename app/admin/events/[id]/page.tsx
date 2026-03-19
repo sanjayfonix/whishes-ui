@@ -8,6 +8,7 @@ export async function generateStaticParams() {
 
 import AdminEventDetailClient from './AdminEventDetailClient';
 
-export default function AdminEventDetailPage({ params }: { params: { id: string } }) {
-  return <AdminEventDetailClient id={params.id} />;
+export default async function AdminEventDetailPage({ params }: { params: Promise<{ id: string }> }) {
+  const { id } = await params;
+  return <AdminEventDetailClient id={id} />;
 }

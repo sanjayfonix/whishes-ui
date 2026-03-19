@@ -1,0 +1,21 @@
+1:"$Sreact.fragment"
+2:I[7555,[],""]
+3:I[1295,[],""]
+4:I[7969,["874","static/chunks/874-7493432987fc08e7.js","644","static/chunks/644-6433212dc03de456.js","702","static/chunks/702-44cc4d23ec1a398b.js","977","static/chunks/app/contact/page-aef3d6c6ac00ff00.js"],"default"]
+5:I[9702,["874","static/chunks/874-7493432987fc08e7.js","644","static/chunks/644-6433212dc03de456.js","702","static/chunks/702-44cc4d23ec1a398b.js","977","static/chunks/app/contact/page-aef3d6c6ac00ff00.js"],"default"]
+6:I[9010,["874","static/chunks/874-7493432987fc08e7.js","644","static/chunks/644-6433212dc03de456.js","702","static/chunks/702-44cc4d23ec1a398b.js","977","static/chunks/app/contact/page-aef3d6c6ac00ff00.js"],"default"]
+7:I[9665,[],"OutletBoundary"]
+a:I[4911,[],"AsyncMetadataOutlet"]
+c:I[9665,[],"ViewportBoundary"]
+e:I[9665,[],"MetadataBoundary"]
+10:I[6614,[],""]
+:HL["/_next/static/css/13e428e3c5687d0e.css","style"]
+0:{"P":null,"b":"RI3BKHcnqYYDS5V96mtwl","p":"","c":["","contact"],"i":false,"f":[[["",{"children":["contact",{"children":["__PAGE__",{}]}]},"$undefined","$undefined",true],["",["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/13e428e3c5687d0e.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","html",null,{"lang":"en","suppressHydrationWarning":true,"children":["$","body",null,{"className":"__variable_188709 __variable_9a8899 __variable_a5c4ba antialiased","children":["$","$L2",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[["$","div",null,{"className":"flex flex-col items-center justify-center h-screen text-center px-4","children":[["$","h1",null,{"className":"text-5xl md:text-5xl font-semibold text-gray-100","children":"404"}],["$","h1",null,{"className":"text-2xl md:text-3xl font-semibold mt-6","children":"This page has not been generated"}],["$","p",null,{"className":"mt-4 text-xl md:text-2xl text-gray-500","children":"Tell me what you would like on this page"}]]}],[]],"forbidden":"$undefined","unauthorized":"$undefined"}]}]}]]}],{"children":["contact",["$","$1","c",{"children":[null,["$","$L2",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":["__PAGE__",["$","$1","c",{"children":[["$","div",null,{"className":"min-h-screen bg-[#F9FAFB]","children":[["$","$L4",null,{}],["$","$L5",null,{}],["$","$L6",null,{}]]}],null,["$","$L7",null,{"children":["$L8","$L9",["$","$La",null,{"promise":"$@b"}]]}]]}],{},null,false]},null,false]},null,false],["$","$1","h",{"children":[null,["$","$1","5DKM0jm2hB7A_EsSpN7TOv",{"children":[["$","$Lc",null,{"children":"$Ld"}],null]}],["$","$Le",null,{"children":"$Lf"}]]}],false]],"m":"$undefined","G":["$10","$undefined"],"s":false,"S":true}
+11:"$Sreact.suspense"
+12:I[4911,[],"AsyncMetadata"]
+f:["$","div",null,{"hidden":true,"children":["$","$11",null,{"fallback":null,"children":["$","$L12",null,{"promise":"$@13"}]}]}]
+9:null
+d:[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]
+8:null
+b:{"metadata":[["$","title","0",{"children":"WishHapp - Schedule Midnight WhatsApp Surprises"}],["$","meta","1",{"name":"description","content":"Schedule a midnight WhatsApp surprise for just ₹9. Upload your message, pick a date, and we'll deliver it at 12:00 AM sharp."}]],"error":null,"digest":"$undefined"}
+13:{"metadata":"$b:metadata","error":null,"digest":"$undefined"}
